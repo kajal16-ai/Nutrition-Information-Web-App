@@ -1,1 +1,192 @@
-<h1>Hello</h1>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./media.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="header">
+        <a href="/index.html"><img src="/images/logo-image.png" alt="logo"></a>
+        
+        <nav class="topnav" id="mytopnav">
+            <span class="close-icon" onclick="menubar()">&#10006;</span>
+            <a href="/home.html">Home</a>
+            <a href="/aboutme.html">About Me</a>
+            <a href="/index.html">Pages</a>
+            <a href="/contact.html">Contact</a>
+        </nav>
+        
+        <a href="javascript:void(0);" class="menu-icon" onclick="menubar()">
+            <i class="fa-solid fa-bars"></i>
+        </a>
+    
+        <img src="/images/Add to cart.png" alt="cart">
+    </div>
+    
+    <div class="homepage">
+        <img src="/images/nutrition.jpg" alt="nutrition">
+        <div class="experince">
+            <img src="/images/arrow.png" alt="arrow">
+            <h3>10+</h3>
+            <h4>YEARS OF EXPERINCE</h4>
+        </div>
+        <div class="services-box">
+            <h1>Nutrition<br> Services</h1>
+            <p>Images from <a href="#" class="first">Freepik</a></p>
+            <a href="#" class="second">Learn more &rarr;</a>
+        </div>
+    </div>
+    <div class="services-section">
+        <h2>Nutrition Services</h2>
+        <p>I help people meet their nutritional needs as a nutritionist.</p>
+
+        <div class="services-container">
+            <!-- Left Side -->
+            <div class="left">
+                <div class="service-first">
+                    <div class="icon"></div>
+                    <h4>Cholesterol Education</h4>
+                    <p>Cholesterol is a waxy substance found throughout the body. <br>It's not "bad" unless you have
+                        too much of it. In fact, your body <br>needs it to build cells.</p>
+                </div>
+                <div class="service-second">
+                    <div class="icon"></div>
+                    <h4>Diabetes Management Support</h4>
+                    <p>Encompasses the resources and strategies that empower individuals<br>
+                        to effectively manage their condition, including self-management
+                        <br>education, healthcare team collaboration, and community support.
+                    </p>
+                </div>
+                <div class="service-third">
+                    <div class="icon"></div>
+                    <h4>Sports Performance Enhancement</h4>
+                    <p>Tools and techniques that can protect against injury and improve <br>gameplay to help young
+                        athletes reach their goals.</p>
+                </div>
+            </div>
+
+            <!-- Right Side -->
+            <div class="right">
+                <div class="service-forth">
+                    <div class="icon"></div>
+                    <h4>Weight Management</h4>
+                    <p>Adopting long-term lifestyle changes focused on healthy eating <br> and regular
+                        physical activity to achieve and maintain a healthy <br>weight</p>
+                </div><br><br><br>
+                <div class="service-five">
+                    <div class="icon"></div>
+                    <h4>Meal Planning Guidance</h4>
+                    <p>Plan your meals so you eat from all five food groups fruits,<br> vegetables,
+                        grains, protein foods, and dairy or fortified soy <br>products every day</p>
+                </div><br><br><br>
+                <div class="service-six">
+                    <div class="icon"></div>
+                    <h4>Nutrition Education</h4>
+                    <p> A set of learning experiences designed to encourage people to <br>adopt healthy eating and
+                        nutrition-related behaviors, ultimately<br> promoting health and well-being</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="worknutrition"> 
+        <div class="daywork">
+            <span>90 Day Body & Mind Transformation Program</span>
+            <p>Sample text. Click to select the Text Element.</p>
+            <div class="howwork"> </div>
+            <a href="#" class="work">How it works &rarr;</a>
+        </div>
+        <img src="/images/happy-young.png" alt="fitness">
+    </div>
+    <div class="information">
+        <h4>Frequently Asked Questions</h4>
+        <div class="faq-item">
+            <button onclick="toggleFaq(0)">What is a Naturopath?</button>
+            <div class="faq-content">A Naturopath is a health practitioner who uses natural therapies and holistic
+                approaches to promote healing and well-being, focusing on lifestyle changes, natural remedies, and
+                the body's innate ability to heal. </div>
+        </div>
+        <div class="faq-item">
+            <button onclick="toggleFaq(1)">What is a Holistic Nutritionist?</button>
+            <div class="faq-content">takes a comprehensive, personalized approach to nutrition,
+                considering the interconnectedness of mind, body, and spirit, and focuses on supporting the body's
+                natural healing abilities through food and lifestyle choices. </div>
+        </div>
+        <div class="faq-item">
+            <button onclick="toggleFaq(2)">How can a Naturopath help me?</button>
+            <div class="faq-content">it is effective for treating cardiovascular disease, musculoskeletal pain, type 2
+                diabetes, polycystic ovary syndrome, depression, anxiety, and a range of complex chronic conditions.
+            </div>
+        </div>
+        <div class="faq-item">
+            <button onclick="toggleFaq(3)">What is "Heelthy diet"?</button>
+            <div class="faq-content">his means eating a wide variety of foods in the right proportions, and consuming
+                the
+                right amount of food and drink to achieve and maintain a healthy body weight.</div>
+        </div>
+        <div class="faq-item">
+            <button onclick="toggleFaq(4)">How do online Nutrition consultations work?</button>
+            <div class="faq-content">involve a virtual dietitian assessing your dietary habits, health goals, and
+                lifestyle, then creating a personalized plan via video calls, phone calls, or messaging, with follow-up
+                appointments for progress monitoring and adjustments. </div>
+        </div>
+        <div class="faq-item">
+            <button onclick="toggleFaq(5)">How can I get nutrition advice about a medical condition?</button>
+            <div class="faq-content">To get nutrition advice tailored to a specific medical condition, consult a
+                Registered Dietitian or Nutritionist (RDN), who can create a personalized plan considering your health
+                status, lifestyle, and food preferences. </div>
+        </div>
+        <div class="inquriy">
+            <h3>How can I help you?</h3>
+            <p>Please take a few moments to let me know about yourself <br>and your health goals before we start working
+                together:</p>
+            <form id="inquriyform">
+                <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+                <input type="email" name="email" id="email" placeholder="Enter Your Email Address" required>
+                <textarea name="msg" id="msg" placeholder="Enter Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="firstblock">
+                <img src="/images/footerlogo.png" alt="logo">
+                <div class="social-icons">
+                    <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                </div>
+            </div>
+    
+            <div class="secondblock">
+                <h3>Quick Links</h3>
+                <a href="#">About Me</a>
+                <a href="#">Consultation</a>
+                <a href="#">My Blog</a>
+                <a href="#">Books</a>
+            </div>
+
+            <div class="thirdblock">
+                <h3>Our Services</h3>
+                <a href="#">Support & Motivation</a>
+                <a href="#">Weight Loss Programs</a>
+                <a href="#">Personalized Nutrition</a>
+                <a href="#">Healthy Daily Life</a>
+                <a href="#">Balance Body & Mind</a>
+            </div>
+    </footer>
+    <div class="end">This site was created with the Nicepage</div>
+    
+    </div>
+    <script src="/demo.js"></script>
+</body>
+
+</html>

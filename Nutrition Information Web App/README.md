@@ -1,1 +1,2 @@
-# This is my first project Nutrition information web app
+# Project
+This is my first Repository
